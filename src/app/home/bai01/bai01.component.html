@@ -1,0 +1,8 @@
+<h2>Bai so 1</h2>
+<h2>Ten: {{user.name | uppercase}} </h2>
+<div><span>id: </span>{{user.id}}</div>
+<div><span>Luong: </span>{{user.salary | currency: '': ''}} VND</div>
+<div>
+  <label for='name'> name: </label>
+  <input id='name' [(ngModel)]="user.name" placeholder="name">
+</div>
